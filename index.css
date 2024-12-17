@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #200d0d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Text";
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fffdf9;
+  font-family: Inter, sans-serif;
+}
+
+header {
+  background: #fffdf9;
+  box-shadow: 0px -5px 10px 0px rgba(32, 13, 13, 0.25);
+  width: 100%;
+  position: fixed;
+  z-index: 2024;
+}
+
+header nav ul {
+  display: flex;
+  padding: 40px 0px 20px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+header nav ul .ph-asterisk {
+  font-size: 20px;
+}
+
+main {
+  padding: 0 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.s-hero {
+  padding: 56px 0;
+}
+
+.s-hero .content {
+  max-width: 632px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.s-hero .content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.s-hero .content .text .title {
+  text-align: center;
+}
+
+.s-hero .content .text h1 {
+  font-size: 48px;
+}
+
+.s-hero .content .text h4 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.s-hero .content .text p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 160%;
+}
+
+.s-hero .content a {
+  border: 1px solid #200d0d;
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #200d0d;
+  color: #fffdf9;
+  font-family: "DM Serif Text";
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.s-hero .content a:hover {
+  background: #fffdf9;
+  color: #200d0d;
+}
+
+.lines {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.s-departamento {
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.s-departamento .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.s-departamento .top span {
+  font-size: 14px;
+  font-family: "DM Serif Text";
+  font-style: italic;
+}
+
+.s-departamento .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-departamento .content p {
+  max-width: 441px;
+  line-height: 160%;
+}
+
+img {
+  /* max-width: 100%; */
+  display: block;
+}
+
+.s-departamento .content .images {
+  columns: 2;
+  column-gap: 16px;
+}
+
+.s-departamento .content .images img {
+  margin-bottom: 16px;
+}
+
+.s-entidades {
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 32px; */
+}
+
+.s-entidades > .text {
+  position: sticky;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.s-entidades .text .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.s-entidades .text .top .bullets {
+  display: flex;
+  gap: 4px;
+}
+
+.s-entidades .text .top .bullets .bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #200d0d;
+}
+
+.s-entidades .text p {
+  line-height: 160%;
+}
+
+.s-entidades .cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-entidades .cards .s-card {
+  padding-top: 120px;
+  position: sticky;
+  top: 0;
+}
+
+.s-entidades .cards .card {
+  padding: 32px;
+  gap: 64px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.s-entidades .cards .card .image {
+  width: 258px;
+  height: 258px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px 0px 32px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.s-entidades .cards .card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.s-entidades .cards .card .content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.s-entidades .cards .card .content .text p {
+  line-height: 160%;
+}
+
+.s-entidades .cards .card .content .icons {
+  display: flex;
+  gap: 16px;
+  font-size: 30px;
+}
+
+.s-entidades .cards .card.pet {
+  background: #ebf4fb;
+}
+.s-entidades .cards .card.cainfo {
+  background: #f5f5f5;
+}
+.s-entidades .cards .card.caccom {
+  background: #fff2f2;
+}
+.s-entidades .cards .card.conectadas {
+  background: #faf1f6;
+}
+
+.s-programacao {
+  padding-top: 160px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.s-programacao .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.s-programacao .top span {
+  font-size: 14px;
+  font-family: "DM Serif Text";
+  font-style: italic;
+}
+
+.s-programacao .grade {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.s-programacao .grade .top {
+  display: flex;
+  gap: 32px;
+}
+
+.s-programacao .grade .dia-1,
+.s-programacao .grade .dia-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.s-programacao .grade .dia-1 a,
+.s-programacao .grade .dia-2 a {
+  text-decoration: underline;
+}
+
+.s-programacao .grade .dia-1 a:hover,
+.s-programacao .grade .dia-2 a:hover {
+  text-decoration: none;
+}
+
+.s-programacao .grade .dia-1,
+.s-programacao .grade .dia-2,
+.s-programacao .grade .dia-3,
+.s-programacao .grade .dia-4 {
+  border: 1px solid #200d0d;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 286px;
+}
+
+.s-programacao .grade .dia-1 p,
+.s-programacao .grade .dia-2 p,
+.s-programacao .grade .dia-3 p,
+.s-programacao .grade .dia-4 p {
+  line-height: 160%;
+  text-align: center;
+}
+
+/* .s-programacao .grade .dia-1 ul li, */
+.s-programacao .grade ul li {
+  list-style: disc;
+}
+
+.s-programacao .grade .dia-1 ul,
+.s-programacao .grade .dia-2 ul,
+.s-programacao .grade .dia-3 ul,
+.s-programacao .grade .dia-4 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.s-programacao .grade .dia-3 ul li span,
+.s-programacao .grade .dia-4 ul li span {
+  font-family: "DM Serif Text";
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 0 80px 0;
+}
+
+footer span {
+  font-family: "DM Serif Text";
+}
